@@ -1,0 +1,16 @@
+cls
+Go over setting up git stuff (.gitignore and stuff)
+Read this (all scripts and shi): https://github.com/BaileyGingerTechnology/PackerSystems/tree/master/CyberPatriot
+
+::Install malware bytes:https://support.malwarebytes.com/hc/en-us/articles/360039024193-Install-Malwarebytes-Anti-Malware-for-Business-by-script#:~:text=First%2C%20open%20the%20Malwarebytes%20Anti,locate%20the%20sample%20installation%20script.&text=The%20script%20silently%20installs%20and,it%20into%20a%20text%20file.
+Make sure menu aligned
+firewall: if %errorlevel%==1 netsh advfirewall firewall set service type = remotedesktop mode = disable
+
+Know:
+- Can encase for loop in () and output to a file (as seen here)
+https://stackoverflow.com/questions/17605767/create-list-or-arrays-in-windows-batch
+- firewall :: netsh advfirewall set allprofiles state on
+- >NUL pipes to such and erases/ignores the output;
+  - pause >NUL usually used with echo to tell user smth, then continue on, ignore/erase the error output, and continue when the user presses a key
+  "The null device is a special file that discards all data written to it, but reports that the write operation succeeded."
+  - use /I for non-case sensitive being in comparisons
