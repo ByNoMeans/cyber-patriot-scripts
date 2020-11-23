@@ -1,4 +1,3 @@
-cls
 Go over setting up git stuff (.gitignore and stuff)
 Read this (all scripts and shi): https://github.com/BaileyGingerTechnology/PackerSystems/tree/master/CyberPatriot
 
