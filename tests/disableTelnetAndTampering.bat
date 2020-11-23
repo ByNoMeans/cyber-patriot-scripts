@@ -18,5 +18,3 @@ REM echo Removing TelnetClient Test
 REM dism /online /disable-feature /featurename:TelnetClient
 
 REM echo Check it worked!
-
-echo You are a great person?

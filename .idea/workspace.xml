@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="727f5f36-4f2f-4b2b-8244-0a18579572c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/To-Do.txt" beforeDir="false" afterPath="$PROJECT_DIR$/To-Do.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/batchOne.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/disableTelnetAndTampering.bat" beforeDir="false" afterPath="$PROJECT_DIR$/tests/disableTelnetAndTampering.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/menuFormat.bat" beforeDir="false" afterPath="$PROJECT_DIR$/tests/menuFormat.bat" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="JupyterTrust" id="236f6e75-abdd-4ab4-9e61-395ec44535e1" />
+  <component name="ProjectId" id="1khoS683LXk6PRyI2DnEHtcXwxe" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="727f5f36-4f2f-4b2b-8244-0a18579572c1" name="Default Changelist" comment="" />
+      <created>1606162180445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606162180445</updated>
+      <workItem from="1606162181692" duration="1000" />
+      <workItem from="1606162192151" duration="136000" />
+      <workItem from="1606162341038" duration="3150000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.bat" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="927" y="298" key="#Plugins" timestamp="1606162352954">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="927" y="298" key="#Plugins/-1920.178.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1606162352954" />
+    <state x="836" y="302" key="SettingsEditor" timestamp="1606164357501">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="836" y="302" key="SettingsEditor/-1920.178.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1606164357501" />
+  </component>
+</project>

@@ -4,10 +4,6 @@ setlocal enableextensions
 set fileName=%~nx0
 set location=%~dp0
 
-goto comment
-./menuFormat.bat
-:comment
-
 set visitedOne=false
 
 :MENU
