@@ -35,11 +35,11 @@ if "%v1%"=="true" (
 set v1=true
 
 if exist C:\Windows\System32\drivers\etc\hosts (
-  xcopy /v /y hostReplacement.txt "%WinDir%\system32\drivers\etc\hosts"
+  xcopy /v /y "..\external\hostReplacement.txt" "%WinDir%\system32\drivers\etc\hosts"
   echo.
   echo Host file copied. Verifying integrity:
   echo.
-  fc /b hostReplacement.txt "%WinDir%\system32\drivers\etc\hosts"
+  fc /b "..\external\hostReplacement.txt" "%WinDir%\system32\drivers\etc\hosts"
 ) else (
   echo Host file not found; put it in C:\Windows\System32\drivers\etc\hosts with no extension
 )
