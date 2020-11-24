@@ -7,7 +7,6 @@ SET location=%~dp0
 set v1=false
 set v2=false
 
-:: Admin permissions
 net session >nul 2>&1
 if %errorlevel% GEQ 1 (
     echo Enable Administrator rights. Exiting script.

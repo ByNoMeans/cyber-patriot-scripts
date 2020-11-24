@@ -21,7 +21,7 @@
 ### Update windows programs (powershell, etc.)
 ### Disable RDP everywhere
 ### Registry Services (IIS, TelNet, Webservices, FTP)
---- ### Host file---
+### ---Host file---
 # *"Unit Five-Microsoft Windows Security"*
 ### Firewall port exceptions
 ### User altering
