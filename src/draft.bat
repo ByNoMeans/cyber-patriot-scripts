@@ -4,9 +4,9 @@ setlocal enableextensions
 
 SET fileName=%~nx0
 SET location=%~dp0
-set v1=false
-set v2=false
 
+
+:: Administrator Permissions
 net session >nul 2>&1
 if %errorlevel% GEQ 1 (
     echo Enable Administrator rights. Exiting script.
@@ -14,23 +14,45 @@ if %errorlevel% GEQ 1 (
     exit
 )
 
+set v1=false
+set v2=false
+set v3=false
+set v4=false
+set v5=false
+set v6=false
+set v7=false
+set v8=false
+set v9=false
+
 :MENU
 echo.
+set returnToMenu=false
+echo ----------------
 echo Options:
 echo 1: Hosts File
 echo 2: MISC (ADD IN)
+echo ----------------
 echo.
-choice /c 123456789 /m "Enter an Option: "
-if errorlevel 2 goto Two
-if errorlevel 1 goto One
+
+set /p input="Where would you like to go? "
+echo.
+
+if %input%==9 goto Nine
+if %input%==8 goto Eight
+if %input%==7 goto Seven
+if %input%==6 goto Six
+if %input%==5 goto Five
+if %input%==4 goto Four
+if %input%==3 goto Three
+if %input%==2 goto Two
+if %input%==1 goto One
+
+
 
 :One
-
-if "%v1%"=="true" (
-  choice /c YN /m "This task has already been done. Do it again?"
-  if errorlevel 2 goto MENU
-)
-
+call :DetectIfTaskDone %v1%
+@echo off
+if "%returnToMenu%"=="true" goto MENU
 set v1=true
 
 if exist C:\Windows\System32\drivers\etc\hosts (
@@ -42,22 +64,16 @@ if exist C:\Windows\System32\drivers\etc\hosts (
 ) else (
   echo Host file not found; put it in C:\Windows\System32\drivers\etc\hosts with no extension
 )
-
-echo Exiting Option 1.
-pause
 goto MENU
 
+
 :Two
-    if "%v2%"=="true" (
-      choice /c YN /m "This task has already been done. Do it again?"
-      if errorlevel 2 goto MENU
-    )
+call :DetectIfTaskDone %v2%
+@echo off
+if "%returnToMenu%"=="true" goto MENU
+echo doing stuff
+set v2=true
 
-    set v2=true
-
-    echo Exiting Option 2.
-    pause
-    goto MENU
 
     :: UAC
     :: reg ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA /t REG_DWORD /d 1 /f
@@ -76,6 +92,37 @@ goto MENU
     :: if errorlevel 1 (
     ::   ipconfig /flushdns
     :: )
+goto MENU
+
+
+:Three
+
+
+
+:Four
+
+
+
+:Five
+
+
+
+:Six
+
+
+
+:DetectIfTaskDone
+@echo off
+if "%~1"=="true" (
+  choice /c NY /M "This task has already been done. Return to menu?"
+  if errorlevel 2 (
+    set returnToMenu=true
+  ) else (
+    set returnToMenu=false
+  )
+  echo.
+)
+
 
 :end
 endlocal

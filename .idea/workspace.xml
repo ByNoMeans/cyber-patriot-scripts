@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="727f5f36-4f2f-4b2b-8244-0a18579572c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/To-Do.txt" beforeDir="false" afterPath="$PROJECT_DIR$/To-Do.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/batchOne.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/disableTelnetAndTampering.bat" beforeDir="false" afterPath="$PROJECT_DIR$/tests/disableTelnetAndTampering.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/menuFormat.bat" beforeDir="false" afterPath="$PROJECT_DIR$/tests/menuFormat.bat" afterDir="false" />
-    </list>
+    <list default="true" id="727f5f36-4f2f-4b2b-8244-0a18579572c1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +42,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Transverse/release-manager-api" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,6 +62,7 @@
       <workItem from="1606162181692" duration="1000" />
       <workItem from="1606162192151" duration="136000" />
       <workItem from="1606162341038" duration="3349000" />
+      <workItem from="1606264960448" duration="27000" />
     </task>
     <servers />
   </component>
@@ -93,6 +89,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="927" y="298" key="#Plugins/-1920.178.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1606162352954" />
+    <state x="1700" y="474" key="FileChooserDialogImpl" timestamp="1606264985300">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1700" y="474" key="FileChooserDialogImpl/-1920.178.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1606264985300" />
     <state x="836" y="302" key="SettingsEditor" timestamp="1606164357501">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
