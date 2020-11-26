@@ -12,16 +12,17 @@
 ### Install/update firefox, auto update
 ### User account always notify
 ### Manually check, update, delete, disable users (guest)
-> **WARNING**: Write down all passwords
+> **WARNING**: Write down all passwords; log them instead?
 ### User settings (passwords, etc)
 ### All firewall
-### Chocolatey, antivirus, anti-malware
+### ~~Chocolatey, Malwarebytes, Microsoft Security Essentials~~
 ### Ports (FTP, SSH, TelNet, SNMP, LDAP, RDP, etc.), rules
 ### Audits (secpol.msc)
 ### Update windows programs (powershell, etc.)
 ### Disable RDP everywhere
 ### Registry Services (IIS, TelNet, Webservices, FTP)
 ### ~~Host file~~
+
 # *"Unit Five-Microsoft Windows Security"*
 ### Firewall port exceptions
 ### User altering

@@ -28,9 +28,10 @@ set v9=false
 echo.
 set returnToMenu=false
 echo ----------------
-echo Options:
+echo MENU:
 echo 1: Hosts File
 echo 2: MISC (ADD IN)
+echo 3: Chocolatey/Anti-Malware, Anti-Virus
 echo ----------------
 echo.
 
@@ -71,7 +72,6 @@ goto MENU
 call :DetectIfTaskDone %v2%
 @echo off
 if "%returnToMenu%"=="true" goto MENU
-echo doing stuff
 set v2=true
 
 
@@ -96,8 +96,24 @@ goto MENU
 
 
 :Three
+call :DetectIfTaskDone %v3%
+@echo off
+if "%returnToMenu%"=="true" goto MENU
+set v3=true
 
+powershell -Command "& {Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))}"
 
+choco install malwarebytes
+choco install microsoftsecurityessentials
+
+echo.
+echo --------------------------------------------------
+echo Verify existence of both programs (Control panel!)
+echo --------------------------------------------------
+echo.
+pause
+
+goto MENU
 
 :Four
 
