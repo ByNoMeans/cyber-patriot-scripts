@@ -47,3 +47,7 @@
 ### More services (RR, RRA, UPNP, Messenger, Volp)
 ### Remote Settings (disable connections)
 ### System startup (detailed!)
+
+# *"Cyberpatriot Windows Checklist"*
+### DISM commands? View CP
+### Disable send unencrypted password to third party SMB servers [and other similar ones near that on the cp file and others with similar reg listings]
